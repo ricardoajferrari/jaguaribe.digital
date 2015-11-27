@@ -1,0 +1,20 @@
+﻿/*.cb-slideshow{
+	-ms-filter: blur(0.5em);
+	-webkit-filter: blur(0.5em);
+	filter: blur(0.5em);
+}*/
+
+
+
+.cb-slideshow{
+	transition: all 1s ease;
+	-ms-filter: blur(0.2em);
+	-webkit-filter: blur(0.2em);
+	filter: blur(0.2em);
+}
+#video-bg{
+	transition: all 1s ease;
+	-ms-filter: blur(0.5em);
+	-webkit-filter: blur(0.5em);
+	filter: blur(0.5em);
+}

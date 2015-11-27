@@ -1,0 +1,432 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #000;
+	font-family: Arial, Helvetica, sans-serif
+}
+ul {
+	padding:0;
+	margin:0;
+	list-style: none
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-ms-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+#divBtIdiomas {
+	padding:0;
+	margin:0
+}
+
+.fade-in, fade-in2 {
+	opacity:0;  /* make things invisible upon start */
+	-webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+	-moz-animation:fadeIn ease-in 1;
+	-ms-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+
+	-webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+	-moz-animation-fill-mode:forwards;
+	-ms-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+
+	-webkit-animation-duration:5s;
+	-moz-animation-duration:5s;
+	-ms-animation-duration:5s;
+	animation-duration:5s;
+}
+.fade-in  {
+-webkit-animation-delay: 5s;
+-moz-animation-delay: 5s;
+-ms-animation-delay: 5s;
+animation-delay: 5s;
+}
+.fade-in2  {
+-webkit-animation-delay: 10s;
+-moz-animation-delay: 10s;
+-ms-animation-delay: 10s;
+animation-delay: 10s;
+}
+
+/*---make a basic box ---*/
+#logo_menu_idiomas{
+	padding: 0;
+	position: fixed;
+	right: 0;
+	left: 0;
+  	top: 25%;
+	bottom: 50%;
+}
+#logo_menu_idiomas > #box {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	text-align:center;
+	color:#fff;
+	text-shadow: 2px 2px 1px rgba(33, 33, 33, 1);
+}
+.logo {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif
+}
+.logo2 {
+	font-family: Arial, Helvetica, sans-serif
+}
+#english, /*#espanol,*/ #portugues{
+	display: none;
+	position: relative;
+	padding-top: 18%;
+	padding-bottom: 12%; 
+	overflow: hidden;
+	text-align:center;
+	color: #666;
+}
+.botao_idiomas {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+	font-size: 0.8em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	text-shadow: 2px 2px 1px rgba(33, 33, 33, 1);
+	background-color: #004B61;
+	cursor: pointer;
+	margin-top: 1em;
+	border: #004B61;
+	-webkit-border-radius: 1.5em;
+	-khtml-border-radius: 1.5em;	
+	-moz-border-radius: 1.5em;
+	border-radius: 1.5em;
+	padding-top: 1em !important;
+	padding-bottom: 1em !important;
+}
+#botao_english {
+	padding-left: 0.8em;
+	padding-right: 0.8em;
+}
+#botao_portugues {
+	padding-left: 0.8em;
+	padding-right: 0.8em;
+}
+.flex_item {
+    width: 18em;
+	height: 2em;
+    margin: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.centraliza_logo, .centraliza_logo_abertura {
+	margin-bottom: 3em
+}
+@media screen and (min-width: 1025px) {
+.centraliza_logo, .centraliza_logo_abertura {
+	background-image: url(../images/logos/internacional_g.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 132px
+}
+.legenda_logo_english	{
+	background-image: url(../images/logos/legenda_logo_english_g.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 32px
+}
+.legenda_logo_portugues	{
+	background-image: url(../images/logos/legenda_logo_portugues_g.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 32px
+}
+#texto{
+	margin-top: 11em
+}
+/*
+.logo {
+	font-size: 6em;
+}
+.logo2 {
+	font-size: 3em;
+}
+#logo_direita {
+	font-size: 2.7em;
+}
+*/
+#servico {
+	font-size: 1.25em;
+}
+}
+@media screen and (max-width: 1024px) {
+.centraliza_logo, .centraliza_logo_abertura {
+	background-image: url(../images/logos/internacional_g.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 132px
+}
+.legenda_logo_english	{
+	background-image: url(../images/logos/legenda_logo_english_g.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 32px
+}
+.legenda_logo_portugues	{
+	background-image: url(../images/logos/legenda_logo_portugues_g.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 32px
+}
+#texto{
+	margin-top: 11em
+}
+.logo {
+	font-size: 4em;
+}
+.logo2 {
+	font-size: 2.1em;
+}
+#logo_direita {
+	font-size: 2.15em;
+}
+#servico {
+	font-size: 1em;
+}
+}
+@media screen and (max-width: 768px) {
+.centraliza_logo, .centraliza_logo_abertura {
+	background-image: url(../images/logos/internacional_m.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 75px
+}
+.legenda_logo_english	{
+	background-image: url(../images/logos/legenda_logo_english_m.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 32px
+}
+.legenda_logo_portugues	{
+	background-image: url(../images/logos/legenda_logo_portugues_m.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 32px
+}
+#texto{
+	margin-top: 7.5em
+}
+.logo {
+	font-size: 3em;
+}
+.logo2 {
+	font-size: 1.5em;
+}
+#logo_direita {
+	font-size: 1.95em;
+}
+#servico {
+	font-size: 0.9em;
+}
+}
+@media screen and (max-width: 600px) {
+.centraliza_logo, .centraliza_logo_abertura {
+	background-image: url(../images/logos/internacional_m.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 75px
+}
+.legenda_logo_english	{
+	background-image: url(../images/logos/legenda_logo_english_m.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 32px
+}
+.legenda_logo_portugues	{
+	background-image: url(../images/logos/legenda_logo_portugues_m.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 32px
+}
+#texto{
+	margin-top: 7.5em
+}
+.logo {
+	font-size: 2.15em;
+}
+.logo2 {
+	font-size: 1em;
+}
+#logo_direita {
+	font-size: 1.5em;
+}
+#servico {
+	font-size: 0.7em;
+}
+}
+@media screen and (orientation:portrait) and (max-width: 550px) { 
+.centraliza_logo_abertura {
+	background-image: url(../images/logos/internacional_p.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 51px;
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;
+    /*/background-color: rgba(15,15,15,0.5);*/
+}
+.legenda_logo_english	{
+	background-image: url(../images/logos/legenda_logo_english_p.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 32px
+}
+.legenda_logo_portugues	{
+	background-image: url(../images/logos/legenda_logo_portugues_p.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 32px
+}
+#texto{
+	margin-top: 7.5em
+}
+}
+@media screen and (orientation:landscape) and (max-width: 550px) { 
+.centraliza_logo_abertura {
+	background-image: url(../images/logos/internacional_m.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 51px;
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;
+    /*/background-color: rgba(15,15,15,0.5);*/
+}
+.legenda_logo_english	{
+	background-image: url(../images/logos/legenda_logo_english_p.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 32px
+}
+.legenda_logo_portugues	{
+	background-image: url(../images/logos/legenda_logo_portugues_p.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 32px
+}
+#texto{
+	margin-top: 7.5em
+}
+}
+@media screen and (orientation:landscape) and (max-width: 550px) { 
+.centraliza_logo {
+	background-image: url(../images/logos/internacional_p.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 51px;
+	padding-top: 0.7em;
+	padding-bottom: 0.7em;
+    /*/background-color: rgba(15,15,15,0.5);*/
+}
+}
+.flex_item {
+    width: 7em;
+	height: 1.5em;
+}
+@media screen and (max-width: 768px) {
+.flex_item {
+    width: 7em;
+	height: 1.5em;
+}
+}
+.centraliza{
+	margin: auto;
+}
+#logo_direita {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	text-shadow: 2px 2px 1px rgba(33, 33, 33, 1);
+	line-height: 1em;
+	text-align: right
+}
+#servico {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	text-shadow: 2px 2px 1px rgba(33, 33, 33, 1);
+	text-align: right
+}
+#texto{
+	background-color: #004B61;
+	overflow:visible;
+	width: 80%;
+	height:100%; 
+	opacity:0.7; 
+	filter: alpha(opacity = 70); 
+	border-radius:10px; 
+	-moz-border-radius:10px;
+	padding: 1em;
+	margin-left:auto;
+	margin-right: auto;
+	color: #FFF
+}
+@media screen and (orientation:landscape) {
+.flex_item {
+	display: inline
+}
+.botao_idiomas {
+	margin: 1em;
+}
+#botao_english {
+	padding-left: 3.1em;
+	padding-right: 3.1em;
+}
+#botao_portugues {
+	padding-left: 2.3em;
+	padding-right: 2.3em;
+}
+/*
+#logo_menu_idiomas{
+  	top: 1%;
+	bottom: auto;
+}*/
+}
+@media screen and (orientation:landscape) and (max-width: 420px) { 
+.flex_item {
+	display: inline
+}
+}
+.acesso_menuzin{
+	background-image: url(../images/outros/acesso_menuzin.png);
+	background-repeat: no-repeat;
+	/*margin-left: 1em;
+	margin-bottom: 1.5em;
+	width: 21px;
+	overflow: visible;*/
+	display: none;
+	float: left;
+    width:33%;
+}
+@media screen and (orientation:portrait) and (max-width: 380px) {
+#texto{
+	margin-top: 7em
+}
+.acesso_menuzin{
+	background-image: url(../images/outros/acesso_menuzin_p.png);
+	background-repeat: no-repeat;
+	/*margin-left: 1em;
+	margin-bottom: 1.5em;
+	width: 21px;
+	overflow: visible;*/
+	display: none;
+	float: left;
+    width:33%;
+}
+}
+/*
+#logo_menu_idiomas{
+  	top: 1%;
+	bottom: auto;
+}*/
