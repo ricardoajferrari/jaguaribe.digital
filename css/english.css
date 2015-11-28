@@ -277,10 +277,7 @@ animation-delay: 4s;
 .acesso_menuzin{
 	display: inline-block;
     position: relative;
-    top: 2em;
-    margin-right: 1em;
-	margin-left: 2em;
-    width: 33%;
+    top: 1em;
     height:100%;
 }
 .centraliza_logo, .centraliza_logo_abertura, .legenda_logo_english {
@@ -292,9 +289,16 @@ animation-delay: 4s;
 }
 
 @media screen and (orientation:portrait) and (max-width: 380px) {
+#topoLogo_english, #topoLogo_portugues	{
+	top: -1.5em
+} 
 .centraliza_logo, .centraliza_logo_abertura {
 	background-image: url(../images/logos/internacional_pp.png);
-	margin-left: 2.5em
+	margin-left: 2em;
+	margin-top: 1em
+}
+.acesso_menuzin{
+	right: 0.7em
 }
 .legenda_logo_english {
 	margin-left: 0em

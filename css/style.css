@@ -402,6 +402,7 @@ animation-delay: 10s;
 .acesso_menuzin{
 	background-image: url(../images/outros/acesso_menuzin.png);
 	background-repeat: no-repeat;
+	background-position: center;
 	/*margin-left: 1em;
 	margin-bottom: 1.5em;
 	width: 21px;
