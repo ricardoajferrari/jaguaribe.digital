@@ -273,12 +273,13 @@ animation-delay: 4s;
 		margin-bottom: 0em
 	}
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
 .acesso_menuzin{
 	display: inline-block;
     position: relative;
-    top:1.5em;
-    left: 1.2em;
+    top: 2em;
+    margin-right: 1em;
+	margin-left: 2em;
     width: 33%;
     height:100%;
 }

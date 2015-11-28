@@ -234,19 +234,19 @@ animation-delay: 10s;
 }
 @media screen and (max-width: 600px) {
 .centraliza_logo, .centraliza_logo_abertura {
-	background-image: url(../images/logos/internacional_m.png);
+	background-image: url(../images/logos/internacional_p.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 75px
 }
 .legenda_logo_english	{
-	background-image: url(../images/logos/legenda_logo_english_m.png);
+	background-image: url(../images/logos/legenda_logo_english_p.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 32px
 }
 .legenda_logo_portugues	{
-	background-image: url(../images/logos/legenda_logo_portugues_m.png);
+	background-image: url(../images/logos/legenda_logo_portugues_p.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 32px
@@ -323,8 +323,9 @@ animation-delay: 10s;
 .centraliza_logo {
 	background-image: url(../images/logos/internacional_p.png);
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: right;
 	height: 51px;
+	margin-right: 4.5em;
 	padding-top: 0.7em;
 	padding-bottom: 0.7em;
     /*/background-color: rgba(15,15,15,0.5);*/
@@ -414,7 +415,7 @@ animation-delay: 10s;
 	margin-top: 7em
 }
 .acesso_menuzin{
-	background-image: url(../images/outros/acesso_menuzin_p.png);
+	background-image: url(../images/outros/acesso_menuzin_pp.png);
 	background-repeat: no-repeat;
 	/*margin-left: 1em;
 	margin-bottom: 1.5em;
