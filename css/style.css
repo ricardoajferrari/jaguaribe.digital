@@ -233,7 +233,7 @@ animation-delay: 10s;
 }
 }
 @media screen and (max-width: 600px) {
-.centraliza_logo, .centraliza_logo_abertura {
+.centraliza_logo {
 	background-image: url(../images/logos/internacional_p.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -269,7 +269,7 @@ animation-delay: 10s;
 }
 @media screen and (orientation:portrait) and (max-width: 550px) { 
 .centraliza_logo_abertura {
-	background-image: url(../images/logos/internacional_p.png);
+	background-image: url(../images/logos/internacional_m.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 51px;
@@ -372,6 +372,9 @@ animation-delay: 10s;
 	margin-right: auto;
 	color: #FFF
 }
+#texto{
+	margin-top: 6.5em
+}
 @media screen and (orientation:landscape) {
 .flex_item {
 	display: inline
@@ -413,6 +416,13 @@ animation-delay: 10s;
 @media screen and (max-width: 380px) {
 #texto{
 	margin-top: 6em
+}
+}
+@media screen and (max-width: 420px) {
+.centraliza_logo_abertura	{
+	background-image: url(../images/logos/internacional_p.png);
+	background-repeat: no-repeat;
+	background-position: center;
 }
 }
 @media screen and (orientation:portrait) and (max-width: 380px) {
