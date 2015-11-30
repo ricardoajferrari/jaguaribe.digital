@@ -279,12 +279,13 @@ animation-delay: 4s;
     position: relative;
     top: 1em;
     height:100%;
+	margin-left: -0.25em
 }
 .centraliza_logo, .centraliza_logo_abertura, .legenda_logo_english {
 	margin-left: 5em
 }
 .centraliza_logo, .centraliza_logo_abertura {
-	margin-bottom: -0.7em
+	margin-bottom: -0.7em;
 }
 }
 

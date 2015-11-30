@@ -277,23 +277,29 @@ animation-delay: 4s;
 .acesso_menuzin{
 	display: inline-block;
     position: relative;
-    top:1.5em;
-    left: 1.2em;
-    width: 33%;
+    top: 1em;
     height:100%;
+	margin-left: -0.25em
 }
 .centraliza_logo, .centraliza_logo_abertura, .legenda_logo_portugues {
 	margin-left: 5em
 }
 .centraliza_logo, .centraliza_logo_abertura {
-	margin-bottom: -0.7em
+	margin-bottom: -0.7em;
 }
 }
 
 @media screen and (orientation:portrait) and (max-width: 380px) {
+#topoLogo_portugues, #topoLogo_portugues	{
+	top: -1.5em
+} 
 .centraliza_logo, .centraliza_logo_abertura {
 	background-image: url(../images/logos/internacional_pp.png);
-	margin-left: 2.5em
+	margin-left: 2em;
+	margin-top: 1em
+}
+.acesso_menuzin{
+	right: 0.7em
 }
 .legenda_logo_portugues {
 	margin-left: 0em

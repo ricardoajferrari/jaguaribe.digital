@@ -316,16 +316,15 @@ animation-delay: 10s;
 	height: 32px
 }
 #texto{
-	margin-top: 7.5em
+	margin-top: 6em
 }
 }
 @media screen and (orientation:landscape) and (max-width: 550px) { 
 .centraliza_logo {
 	background-image: url(../images/logos/internacional_p.png);
 	background-repeat: no-repeat;
-	background-position: right;
+	background-position: center;
 	height: 51px;
-	margin-right: 4.5em;
 	padding-top: 0.7em;
 	padding-bottom: 0.7em;
     /*/background-color: rgba(15,15,15,0.5);*/
@@ -411,10 +410,12 @@ animation-delay: 10s;
 	float: left;
     width:33%;
 }
-@media screen and (orientation:portrait) and (max-width: 380px) {
+@media screen and (max-width: 380px) {
 #texto{
-	margin-top: 7em
+	margin-top: 6em
 }
+}
+@media screen and (orientation:portrait) and (max-width: 380px) {
 .acesso_menuzin{
 	background-image: url(../images/outros/acesso_menuzin_pp.png);
 	background-repeat: no-repeat;
