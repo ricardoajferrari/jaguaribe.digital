@@ -16,6 +16,7 @@ $(document).ready(function() {
 		$( this ).css( "pointer-events", "auto" );
 	});*/
 });
+
 /*
 var viudeo = document.getElementById("video1");
 function toca() { 

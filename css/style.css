@@ -217,7 +217,7 @@ animation-delay: 10s;
 	height: 32px
 }
 #texto{
-	margin-top: 7.5em
+	margin-top: 7em
 }
 .logo {
 	font-size: 3em;
@@ -252,7 +252,7 @@ animation-delay: 10s;
 	height: 32px
 }
 #texto{
-	margin-top: 7.5em
+	margin-top: 6.5em
 }
 .logo {
 	font-size: 2.15em;
@@ -290,7 +290,7 @@ animation-delay: 10s;
 	height: 32px
 }
 #texto{
-	margin-top: 7.5em
+	margin-top: 6.5em
 }
 }
 @media screen and (orientation:landscape) and (max-width: 550px) { 
@@ -372,9 +372,6 @@ animation-delay: 10s;
 	margin-right: auto;
 	color: #FFF
 }
-#texto{
-	margin-top: 6.5em
-}
 @media screen and (orientation:landscape) {
 .flex_item {
 	display: inline
@@ -438,6 +435,7 @@ animation-delay: 10s;
     width:33%;
 }
 }
+
 /*
 #logo_menu_idiomas{
   	top: 1%;

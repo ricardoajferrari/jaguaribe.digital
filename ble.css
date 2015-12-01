@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+ #bg_fundo_top {
+	 height: 200%; 
+	 background:url('ble.png');
+	 background-repeat:repeat;
+	 position: absolute; 
+	 display:none; 
+	 z-index: -1;
+	 width: 100%;
+	 top: 0px;
+} 
