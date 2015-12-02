@@ -11,11 +11,32 @@ $(document).ready(function() {
 	    $('head').append('<link rel="stylesheet" href="css/blur.css" type="text/css" />');
 		$('head').append('<link rel="stylesheet" href="css/portugues.css" type="text/css" />');
 	});
-	 /*
-		$( "#botao_english" ).on( "load", function() {
-		$( this ).css( "pointer-events", "auto" );
-	});*/
+	
+
 });
+
+ $(window).bind("scroll", function() {  
+   if ($(this).scrollTop() > 30) { //Fade in at a level of height
+     $("#bg_fundo_top").fadeIn();  
+     checkOffset(); //Call function
+   } else {  
+     $("#bg_fundo_top").stop().fadeOut();  
+   }  
+ });  
+ function checkOffset() {  
+   if($('#bg_fundo_top').offset().top + $('#bg_fundo_top').height() >= $('#container_english').offset().top) {  
+     $('#bg_fundo_top').css('position', 'fixed'); //Stop div at a level of height
+   }  
+   if($(window).scrollTop() + $(window).height() < $('#container_english').offset().top) {  
+     $('#bg_fundo_top').css('position', 'fixed'); //Restore when you scroll up  
+   }  
+ }  
+
+
+ /*
+	$( "#botao_english" ).on( "load", function() {
+	$( this ).css( "pointer-events", "auto" );
+});*/
 
 /*
 var viudeo = document.getElementById("video1");
