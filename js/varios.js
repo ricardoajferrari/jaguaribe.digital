@@ -1,4 +1,5 @@
 // JavaScript Document
+
 $(document).ready(function() {
 /*IDIOMAS*/ /*SHOW/HIDE*/ /*SHOW DIV APAGADA E HIDE DIV CENTRAL ABERTURA*/
 	$("#botao_english").click(function() {
@@ -6,6 +7,7 @@ $(document).ready(function() {
 	    $('head').append('<link rel="stylesheet" href="css/blur.css" type="text/css" />');
 		$('head').append('<link rel="stylesheet" href="css/english.css" type="text/css" />');
 		$.getScript( "js/bg_fundo_top_english.js");
+
 	});
 	$("#botao_portugues").click(function() {
 	    $("#logo_menu_idiomas").hide();
@@ -14,7 +16,6 @@ $(document).ready(function() {
 		$.getScript( "js/bg_fundo_top_portugues.js");
 	});
 });
-
 
  /*
 	$( "#botao_english" ).on( "load", function() {

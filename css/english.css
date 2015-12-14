@@ -199,9 +199,7 @@ p.codrops-demos a.current-demo:hover{
 }
 /* - FIM -  Media Queries */
 
-#servico{
-	display: block
-}
+
 #topoLogo_english{
 	display: block
 }
@@ -280,7 +278,7 @@ animation-delay: 4s;
     height:100%;
 	margin-left: -1em
 }
-.centraliza_logo, .centraliza_logo_abertura, .legenda_logo_english {
+.centraliza_logo, .centraliza_logo_abertura, .slogan_logo_english {
 	margin-left: 4em
 }
 .centraliza_logo, .centraliza_logo_abertura {
@@ -298,7 +296,7 @@ animation-delay: 4s;
 	margin-top: 1em
 }
 
-.legenda_logo_english {
+.slogan_logo_english {
 	margin-left: 0em
 }
 }

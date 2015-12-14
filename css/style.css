@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 /* CSS Document */
 
 body{
@@ -122,8 +122,11 @@ animation-delay: 10s;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 }
-.centraliza_logo, .centraliza_logo_abertura {
+.centraliza_logo_abertura {
 	margin-bottom: 3em
+}
+.centraliza_logo {
+	margin-bottom: 0em
 }
 @media screen and (min-width: 1025px) {
 .centraliza_logo, .centraliza_logo_abertura {
@@ -132,20 +135,20 @@ animation-delay: 10s;
 	background-position: center;
 	height: 132px
 }
-.legenda_logo_english	{
-	background-image: url(../images/logos/legenda_logo_english_g.png);
+.slogan_logo_english	{
+	background-image: url(../images/logos/slogan_logo_english_g.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 32px
 }
-.legenda_logo_portugues	{
-	background-image: url(../images/logos/legenda_logo_portugues_g.png);
+.slogan_logo_portugues	{
+	background-image: url(../images/logos/slogan_logo_portugues_g.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 32px
 }
 #texto{
-	margin-top: 11em
+	margin-top: 13em
 }
 /*
 .logo {
@@ -158,9 +161,7 @@ animation-delay: 10s;
 	font-size: 2.7em;
 }
 */
-#servico {
-	font-size: 1.25em;
-}
+
 }
 @media screen and (max-width: 1024px) {
 .centraliza_logo, .centraliza_logo_abertura {
@@ -169,20 +170,20 @@ animation-delay: 10s;
 	background-position: center;
 	height: 132px
 }
-.legenda_logo_english	{
-	background-image: url(../images/logos/legenda_logo_english_g.png);
+.slogan_logo_english	{
+	background-image: url(../images/logos/slogan_logo_english_g.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 32px
 }
-.legenda_logo_portugues	{
-	background-image: url(../images/logos/legenda_logo_portugues_g.png);
+.slogan_logo_portugues	{
+	background-image: url(../images/logos/slogan_logo_portugues_g.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 32px
 }
 #texto{
-	margin-top: 11em
+	margin-top: 13em
 }
 .logo {
 	font-size: 4em;
@@ -193,9 +194,7 @@ animation-delay: 10s;
 #logo_direita {
 	font-size: 2.15em;
 }
-#servico {
-	font-size: 1em;
-}
+
 }
 @media screen and (max-width: 768px) {
 .centraliza_logo, .centraliza_logo_abertura {
@@ -204,14 +203,14 @@ animation-delay: 10s;
 	background-position: center;
 	height: 75px
 }
-.legenda_logo_english	{
-	background-image: url(../images/logos/legenda_logo_english_m.png);
+.slogan_logo_english	{
+	background-image: url(../images/logos/slogan_logo_english_m.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 32px
 }
-.legenda_logo_portugues	{
-	background-image: url(../images/logos/legenda_logo_portugues_m.png);
+.slogan_logo_portugues	{
+	background-image: url(../images/logos/slogan_logo_portugues_m.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 32px
@@ -228,9 +227,7 @@ animation-delay: 10s;
 #logo_direita {
 	font-size: 1.95em;
 }
-#servico {
-	font-size: 0.9em;
-}
+
 }
 @media screen and (max-width: 600px) {
 .centraliza_logo {
@@ -239,14 +236,14 @@ animation-delay: 10s;
 	background-position: center;
 	height: 75px
 }
-.legenda_logo_english	{
-	background-image: url(../images/logos/legenda_logo_english_p.png);
+.slogan_logo_english	{
+	background-image: url(../images/logos/slogan_logo_english_p.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 32px
 }
-.legenda_logo_portugues	{
-	background-image: url(../images/logos/legenda_logo_portugues_p.png);
+.slogan_logo_portugues	{
+	background-image: url(../images/logos/slogan_logo_portugues_p.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 32px
@@ -263,9 +260,7 @@ animation-delay: 10s;
 #logo_direita {
 	font-size: 1.5em;
 }
-#servico {
-	font-size: 0.7em;
-}
+
 }
 @media screen and (orientation:portrait) and (max-width: 550px) { 
 .centraliza_logo_abertura {
@@ -277,14 +272,14 @@ animation-delay: 10s;
 	padding-bottom: 0.7em;
     /*/background-color: rgba(15,15,15,0.5);*/
 }
-.legenda_logo_english	{
-	background-image: url(../images/logos/legenda_logo_english_p.png);
+.slogan_logo_english	{
+	background-image: url(../images/logos/slogan_logo_english_p.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 32px
 }
-.legenda_logo_portugues	{
-	background-image: url(../images/logos/legenda_logo_portugues_p.png);
+.slogan_logo_portugues	{
+	background-image: url(../images/logos/slogan_logo_portugues_p.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 32px
@@ -303,14 +298,14 @@ animation-delay: 10s;
 	padding-bottom: 0.7em;
     /*/background-color: rgba(15,15,15,0.5);*/
 }
-.legenda_logo_english	{
-	background-image: url(../images/logos/legenda_logo_english_p.png);
+.slogan_logo_english	{
+	background-image: url(../images/logos/slogan_logo_english_p.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 32px
 }
-.legenda_logo_portugues	{
-	background-image: url(../images/logos/legenda_logo_portugues_p.png);
+.slogan_logo_portugues	{
+	background-image: url(../images/logos/slogan_logo_portugues_p.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 32px
@@ -351,13 +346,7 @@ animation-delay: 10s;
 	line-height: 1em;
 	text-align: right
 }
-#servico {
-	font-weight: bold;
-	font-family: Arial, Helvetica, sans-serif;
-	color: #FFF;
-	text-shadow: 2px 2px 1px rgba(33, 33, 33, 1);
-	text-align: right
-}
+
 #texto{
 	background-color: #004B61;
 	overflow:visible;
@@ -437,7 +426,7 @@ animation-delay: 10s;
 }
 
 #bg_fundo_top_english {
-	height: 105%; 
+	height: 120%; 
 	background-color: #004b61;
 	opacity: 0.9;
 	position: absolute; 
@@ -448,7 +437,7 @@ animation-delay: 10s;
 	box-shadow: 0px 5px 10px #333
 } 
 #bg_fundo_top_portugues {
-	height: 105%; 
+	height: 120%; 
 	background-color: #004b61;
 	opacity: 0.9;
 	position: absolute; 
@@ -457,6 +446,10 @@ animation-delay: 10s;
 	width: 100%;
 	top: 0px;
 	box-shadow: 0px 5px 10px #333
+}
+
+.botoes_menu {
+	cursor: pointer;
 }
 
 /*
