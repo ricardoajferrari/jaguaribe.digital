@@ -1,7 +1,6 @@
 // JavaScript Document
 
 $(document).ready(function() {
-/*IDIOMAS*/ /*SHOW/HIDE*/ /*SHOW DIV APAGADA E HIDE DIV CENTRAL ABERTURA*/
 	$("#botao_english").click(function() {
 	    $("#logo_menu_idiomas").hide();
 	    $('head').append('<link rel="stylesheet" href="css/blur.css" type="text/css" />');
