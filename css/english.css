@@ -196,7 +196,6 @@ animation-delay: 4s;
     -ms-flex-item-align: auto;
     align-self: auto;
 }
-
 @media screen and (min-width: 1025px) {
 	.centraliza_logo, .centraliza_logo_abertura {
 		margin-bottom: 0em
@@ -254,15 +253,18 @@ animation-delay: 4s;
 #services	{
 	background-image: url(../images/outros/menu/services_p.png);
 	background-repeat:no-repeat;
-	height: 100%
+	height: 100%;
+	width: 100%;
 }
 #resume	{
 	background-image: url(../images/outros/menu/resume_p.png);
 	background-repeat:no-repeat;
-	height: 100%
+	height: 100%;
+	width: 100%;
 }
 #contact	{
 	background-image: url(../images/outros/menu/contact_p.png);
 	background-repeat:no-repeat;
-	height: 100%
+	height: 100%;
+	width: 100%;
 }

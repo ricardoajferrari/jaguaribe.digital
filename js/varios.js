@@ -14,6 +14,9 @@ $(document).ready(function() {
 		$('head').append('<link rel="stylesheet" href="css/portugues.css" type="text/css" />');
 		$.getScript( "js/bg_fundo_top_portugues.js");
 	});
+	$(".acesso_menuzin").click(function() {
+		$('head').append('<link rel="stylesheet" href="css/menuzin_english.css" type="text/css" />');
+	});	
 });
 
  /*
