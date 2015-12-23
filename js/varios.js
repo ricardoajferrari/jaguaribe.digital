@@ -16,7 +16,14 @@ $(document).ready(function() {
 	});
 	$(".acesso_menuzin").click(function() {
 		$('head').append('<link rel="stylesheet" href="css/menuzin_english.css" type="text/css" />');
-	});	
+	});
+
+	$('#resume').click(function(){
+	 var popup = window.open('others/ricardo.ferrari_resume.pdf', '_blank');
+		var dom = popup.document.body;
+  
+});
+
 });
 
  /*
