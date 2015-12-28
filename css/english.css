@@ -256,7 +256,7 @@ animation-delay: 4s;
 	height: 100%;
 	width: 100%;
 }
-#resume	{
+.resume	{
 	background-image: url(../images/outros/menu/resume_p.png);
 	background-repeat:no-repeat;
 	height: 100%;
@@ -267,4 +267,12 @@ animation-delay: 4s;
 	background-repeat:no-repeat;
 	height: 100%;
 	width: 100%;
+}
+@media screen and (min-width: 601px) {
+#box_menuzin	{
+	display: none !important
+}
+#texto	{
+	display: block !important
+}
 }
