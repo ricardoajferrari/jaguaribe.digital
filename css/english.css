@@ -151,7 +151,7 @@ animation-delay: 4s;
     align-items: center;
 }
 .slogan_logo_english div {
-	margin-top: 2.5em;
+	margin-top: 2.7em;
 	margin-left: 2.5em;
 	height: 1em;
     -webkit-order: 0;
@@ -222,6 +222,15 @@ animation-delay: 4s;
 .menu_english{
 	display: none
 }
+.services	{
+	margin-left: 40%
+}
+.resume	{
+	margin-left: 41%
+}
+.contact	{
+	margin-left: 40.6%
+}
 }
 
 @media screen and (orientation:portrait) and (max-width: 380px) {
@@ -250,7 +259,7 @@ animation-delay: 4s;
 	width: 801px;
 }
 }
-#services	{
+.services	{
 	background-image: url(../images/outros/menu/services_p.png);
 	background-repeat:no-repeat;
 	height: 100%;
@@ -262,7 +271,7 @@ animation-delay: 4s;
 	height: 100%;
 	width: 100%;
 }
-#contact	{
+.contact	{
 	background-image: url(../images/outros/menu/contact_p.png);
 	background-repeat:no-repeat;
 	height: 100%;
