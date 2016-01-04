@@ -250,7 +250,7 @@ animation-delay: 4s;
 	width: 801px;
 }
 }
-#services	{
+.services	{
 	background-image: url(../images/outros/menu/services_p.png);
 	background-repeat:no-repeat;
 	height: 100%;
@@ -262,7 +262,7 @@ animation-delay: 4s;
 	height: 100%;
 	width: 100%;
 }
-#contact	{
+.contact	{
 	background-image: url(../images/outros/menu/contact_p.png);
 	background-repeat:no-repeat;
 	height: 100%;
