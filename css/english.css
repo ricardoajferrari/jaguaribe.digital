@@ -196,6 +196,11 @@ animation-delay: 4s;
     -ms-flex-item-align: auto;
     align-self: auto;
 }
+#menuzin_english_flex {
+  display: flex;
+  align-items: center;
+  flex-flow: column nowrap
+}
 @media screen and (min-width: 1025px) {
 	.centraliza_logo, .centraliza_logo_abertura {
 		margin-bottom: 0em
@@ -222,6 +227,15 @@ animation-delay: 4s;
 .menu_english{
 	display: none
 }
+.services	{
+	max-width: 28%;
+}
+.resume	{
+	max-width: 25%;
+}
+.contact	{
+	max-width: 25%;
+}
 }
 
 @media screen and (orientation:portrait) and (max-width: 380px) {
@@ -236,6 +250,15 @@ animation-delay: 4s;
 
 .slogan_logo_english {
 	margin-left: 0em
+}
+.services	{
+	max-width: 31%;
+}
+.resume	{
+	max-width: 26%;
+}
+.contact	{
+	max-width: 27%;
 }
 }
 @media screen and (max-width: 768px) {

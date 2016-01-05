@@ -365,14 +365,14 @@ animation-delay: 10s;
 }
 #box_menuzin{
 	display: none;
-	background-color: #004B61;
-	overflow:visible;
-	width: 80%;
-	height:100%; 
+	/*background-color: #004B61;
 	opacity:0.7; 
 	filter: alpha(opacity = 70); 
 	border-radius:10px; 
-	-moz-border-radius:10px;
+	-moz-border-radius:10px;*/
+	overflow:visible;
+	width: 80%;
+	height:100%; 
 	padding: 1em;
 	padding-bottom: 0em;
 	margin-left:auto;
@@ -402,9 +402,12 @@ animation-delay: 10s;
 	bottom: auto;
 }*/
 }
-@media screen and (orientation:landscape) and (max-width: 420px) { 
+@media screen and (orientation:landscape) and (max-width: 600px) { 
 .flex_item {
 	display: inline
+}
+#topoLogo_english, #topoLogo_portugues {
+	left: 1em
 }
 }
 .acesso_menuzin{
