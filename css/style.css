@@ -406,9 +406,6 @@ animation-delay: 10s;
 .flex_item {
 	display: inline
 }
-#topoLogo_english, #topoLogo_portugues {
-	left: 1em
-}
 }
 .acesso_menuzin{
 	background-image: url(../images/outros/acesso_menuzin.png);
