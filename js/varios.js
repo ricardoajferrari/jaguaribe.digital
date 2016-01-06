@@ -27,6 +27,10 @@ $(document).ready(function() {
 		var popup = window.open('others/ricardo.ferrari_resume.pdf', '_blank');
 		var dom = popup.document.body;
 	});
+	
+	//para o safari:
+    $(document).scrollTop(0);
+	
 });
 
 /*
