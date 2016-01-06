@@ -290,6 +290,11 @@ animation-delay: 4s;
 	display: none !important
 }
 }
+@media screen and (orientation:landscape) and (max-width: 600px) and (min-width: 481px) {
+.acesso_menuzin {
+    left: 2em
+}
+}
 @media screen and (orientation:portrait) and (max-width: 600px) { 
 .table_menuzin_landscape	{
 	display: none !important
