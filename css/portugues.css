@@ -151,7 +151,7 @@ animation-delay: 4s;
     align-items: center;
 }
 .slogan_logo_portugues div {
-	margin-top: 2.5em;
+	margin-top: 2.7em;
 	margin-left: 2.5em;
 	height: 1em;
     -webkit-order: 0;
@@ -196,7 +196,6 @@ animation-delay: 4s;
     -ms-flex-item-align: auto;
     align-self: auto;
 }
-
 @media screen and (min-width: 1025px) {
 	.centraliza_logo, .centraliza_logo_abertura {
 		margin-bottom: 0em
@@ -222,6 +221,15 @@ animation-delay: 4s;
 }
 .menu_portugues{
 	display: none
+}
+.servicos	{
+	margin-left: 40%
+}
+.curriculo	{
+	margin-left: 41%
+}
+.contato	{
+	margin-left: 40.6%
 }
 }
 
@@ -251,18 +259,64 @@ animation-delay: 4s;
 	width: 801px;
 }
 }
-#servicos	{
+.servicos	{
 	background-image: url(../images/outros/menu/servicos_p.png);
 	background-repeat:no-repeat;
-	height: 100%
+	height: 100%;
+	width: 100%;
 }
-#curriculo	{
+.curriculo	{
 	background-image: url(../images/outros/menu/curriculo_p.png);
 	background-repeat:no-repeat;
-	height: 100%
+	height: 100%;
+	width: 100%;
 }
-#contato	{
+.contato	{
 	background-image: url(../images/outros/menu/contato_p.png);
 	background-repeat:no-repeat;
-	height: 100%
+	height: 100%;
+	width: 100%;
+}
+@media screen and (min-width: 601px) {
+.box_menuzin	{
+	display: none !important
+}
+.texto	{
+	display: block !important
+}
+}
+@media screen and (orientation:landscape) and (max-width: 600px) {
+.table_menuzin_portrait	{
+	display: none !important
+}
+}
+@media screen and (orientation:landscape) and (max-width: 600px) and (min-width: 481px) {
+.acesso_menuzin {
+    left: 2em
+}
+}
+@media screen and (orientation:portrait) and (max-width: 600px) { 
+.table_menuzin_landscape	{
+	display: none !important
+}
+}
+@media screen and (max-width: 600px) {
+.servicos	{
+	background-image: url(../images/outros/menu/servicos.png);
+	background-repeat:no-repeat;
+	height: 100%;
+	width: 100%;
+}
+.curriculo	{
+	background-image: url(../images/outros/menu/curriculo.png);
+	background-repeat:no-repeat;
+	height: 100%;
+	width: 100%;
+}
+.contato	{
+	background-image: url(../images/outros/menu/contato.png);
+	background-repeat:no-repeat;
+	height: 100%;
+	width: 100%;
+}
 }

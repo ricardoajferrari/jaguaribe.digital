@@ -17,9 +17,9 @@ $(document).ready(function() {
 	});
 	
     $(".acesso_menuzin").click(function(){
-        $("#texto").toggle(1, function(){
+        $(".texto").toggle(1, function(){
         });
-        $("#box_menuzin").toggle(1, function(){
+        $(".box_menuzin").toggle(1, function(){
         });
     });
 	
@@ -27,7 +27,11 @@ $(document).ready(function() {
 		var popup = window.open('others/ricardo.ferrari_resume.pdf', '_blank');
 		var dom = popup.document.body;
 	});
-	
+	$('.curriculo').click(function(){
+		var popup = window.open('others/ricardo.ferrari_curriculo.pdf', '_blank');
+		var dom = popup.document.body;
+	});
+		
 	//para o safari:
     $(document).scrollTop(0);
 	

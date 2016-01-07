@@ -150,7 +150,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-#texto{
+.texto{
 	margin-top: 13.5em
 }
 /*
@@ -185,7 +185,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-#texto{
+.texto{
 	margin-top: 13em
 }
 .logo {
@@ -218,7 +218,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-#texto{
+.texto{
 	margin-top: 8.2em
 }
 .logo {
@@ -251,7 +251,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-#texto{
+.texto{
 	margin-top: 6.5em
 }
 .logo {
@@ -287,7 +287,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-#texto{
+.texto{
 	margin-top: 6.5em
 }
 }
@@ -313,7 +313,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-#texto{
+.texto{
 	margin-top: 6em
 }
 }
@@ -349,7 +349,7 @@ animation-delay: 10s;
 	line-height: 1em;
 	text-align: right
 }
-#texto{
+.texto{
 	background-color: #004B61;
 	overflow:visible;
 	width: 80%;
@@ -363,7 +363,7 @@ animation-delay: 10s;
 	margin-right: auto;
 	color: #FFF
 }
-#box_menuzin{
+.box_menuzin{
 	display: none;
 	width: 80%;
 	margin-left:auto;
@@ -423,7 +423,7 @@ animation-delay: 10s;
     width:33%;
 }
 @media screen and (max-width: 380px) {
-#texto{
+.texto{
 	margin-top: 6em
 }
 }
