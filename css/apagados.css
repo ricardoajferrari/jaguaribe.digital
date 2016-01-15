@@ -1,8 +1,9 @@
 ﻿@charset "utf-8";
 /* CSS Document */
-.container_english, .container_portugues{
+.container_english, .container_portugues, .form{
 	position: relative;
-	display: none
+	display: none;
+	height: auto
 }
 #topoLogo_english, #topoLogo_portugues {
 	/*/background-color: #004B61;*/

@@ -128,8 +128,11 @@ animation-delay: 10s;
 .centraliza_logo {
 	margin-bottom: 0em
 }
-.acesso_menuzin	{
+.acesso_menuzin, .acesso_menuzin_form  {
 	cursor: pointer
+}
+.form	{
+	overflow: auto	
 }
 @media screen and (min-width: 1025px) {
 .centraliza_logo, .centraliza_logo_abertura {
@@ -150,7 +153,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-.texto{
+.texto, .form{
 	margin-top: 13.5em
 }
 /*
@@ -185,7 +188,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-.texto{
+.texto, .form{
 	margin-top: 13em
 }
 .logo {
@@ -218,7 +221,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-.texto{
+.texto, .form{
 	margin-top: 8.2em
 }
 .logo {
@@ -251,7 +254,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-.texto{
+.texto, .form{
 	margin-top: 6.5em
 }
 .logo {
@@ -287,7 +290,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-.texto{
+.texto, .form{
 	margin-top: 6.5em
 }
 }
@@ -313,7 +316,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-.texto{
+.texto, .form{
 	margin-top: 6em
 }
 }
@@ -349,7 +352,7 @@ animation-delay: 10s;
 	line-height: 1em;
 	text-align: right
 }
-.texto{
+.texto, .form{
 	background-color: #004B61;
 	overflow:visible;
 	width: 80%;
@@ -371,7 +374,9 @@ animation-delay: 10s;
 	margin-top: 8em;
 	color: #FFF;
 	line-height: 3em;
-	text-align: center
+	text-align: center;
+	height: 100%;
+	position: relative
 	/*
 	background-color: #004B61;
 	opacity:0.7; 
@@ -410,7 +415,7 @@ animation-delay: 10s;
 	display: inline
 }
 }
-.acesso_menuzin{
+.acesso_menuzin  {
 	background-image: url(../images/outros/acesso_menuzin.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -421,9 +426,16 @@ animation-delay: 10s;
 	display: none;
 	float: left;
     width:33%;
+}.acesso_menuzin_form  {
+	background-image: url(../images/outros/acesso_menuzin_form.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: none;
+	float: left;
+    width:33%;
 }
 @media screen and (max-width: 380px) {
-.texto{
+.texto, .form{
 	margin-top: 6em
 }
 }
@@ -435,7 +447,7 @@ animation-delay: 10s;
 }
 }
 @media screen and (orientation:portrait) and (max-width: 380px) {
-.acesso_menuzin{
+.acesso_menuzin, .acesso_menuzin_form  {
 	background-image: url(../images/outros/acesso_menuzin_pp.png);
 	background-repeat: no-repeat;
 	/*margin-left: 1em;

@@ -48,7 +48,7 @@ body{
 	overflow-x: hidden;
 }
 .container_english{
-	display: block
+	display: block;
 }
 .slideShow { 
 	/* fixed position a zero-height full width container_english */
@@ -207,8 +207,13 @@ animation-delay: 4s;
 	}
 }
 @media screen and (max-width: 600px) {
-.acesso_menuzin{
+.acesso_menuzin  {
 	display: inline-block;
+    position: absolute;
+    height:100%;
+	margin-left: -1em
+}
+.acesso_menuzin_form  {
     position: absolute;
     height:100%;
 	margin-left: -1em
@@ -291,7 +296,7 @@ animation-delay: 4s;
 }
 }
 @media screen and (orientation:landscape) and (max-width: 600px) and (min-width: 481px) {
-.acesso_menuzin {
+.acesso_menuzin, .acesso_menuzin_form  {
     left: 2em
 }
 }
