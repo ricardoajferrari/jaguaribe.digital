@@ -128,7 +128,7 @@ animation-delay: 10s;
 .centraliza_logo {
 	margin-bottom: 0em
 }
-.acesso_menuzin, .acesso_menuzin_form  {
+.acesso_menuzin, .acesso_menuzin_form, .acesso_menuzin_form_2  {
 	cursor: pointer
 }
 .form	{
@@ -415,19 +415,8 @@ animation-delay: 10s;
 	display: inline
 }
 }
-.acesso_menuzin  {
+.acesso_menuzin, .acesso_menuzin_form, .acesso_menuzin_form_2  {
 	background-image: url(../images/outros/acesso_menuzin.png);
-	background-repeat: no-repeat;
-	background-position: center;
-	/*margin-left: 1em;
-	margin-bottom: 1.5em;
-	width: 21px;
-	overflow: visible;*/
-	display: none;
-	float: left;
-    width:33%;
-}.acesso_menuzin_form  {
-	background-image: url(../images/outros/acesso_menuzin_form.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	display: none;
@@ -447,7 +436,7 @@ animation-delay: 10s;
 }
 }
 @media screen and (orientation:portrait) and (max-width: 380px) {
-.acesso_menuzin, .acesso_menuzin_form  {
+.acesso_menuzin, .acesso_menuzin_form, .acesso_menuzin_form_2  {
 	background-image: url(../images/outros/acesso_menuzin_pp.png);
 	background-repeat: no-repeat;
 	/*margin-left: 1em;

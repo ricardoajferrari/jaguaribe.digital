@@ -213,7 +213,7 @@ animation-delay: 4s;
     height:100%;
 	margin-left: -1em
 }
-.acesso_menuzin_form  {
+.acesso_menuzin_form, .acesso_menuzin_form_2  {
     position: absolute;
     height:100%;
 	margin-left: -1em
@@ -287,7 +287,7 @@ animation-delay: 4s;
 	display: none !important
 }
 .texto	{
-	display: block !important
+	display: block
 }
 }
 @media screen and (orientation:landscape) and (max-width: 600px) {
@@ -296,7 +296,7 @@ animation-delay: 4s;
 }
 }
 @media screen and (orientation:landscape) and (max-width: 600px) and (min-width: 481px) {
-.acesso_menuzin, .acesso_menuzin_form  {
+.acesso_menuzin, .acesso_menuzin_form, .acesso_menuzin_form_2  {
     left: 2em
 }
 }

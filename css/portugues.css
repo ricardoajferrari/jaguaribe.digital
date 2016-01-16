@@ -207,7 +207,7 @@ animation-delay: 4s;
 	}
 }
 @media screen and (max-width: 600px) {
-.acesso_menuzin, .acesso_menuzin_form  {
+.acesso_menuzin, .acesso_menuzin_form, .acesso_menuzin_form_2  {
 	display: inline-block;
     position: absolute;
     height:100%;
@@ -291,7 +291,7 @@ animation-delay: 4s;
 }
 }
 @media screen and (orientation:landscape) and (max-width: 600px) and (min-width: 481px) {
-.acesso_menuzin, .acesso_menuzin_form  {
+.acesso_menuzin, .acesso_menuzin_form, .acesso_menuzin_form_2  {
     left: 2em
 }
 }
