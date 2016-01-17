@@ -128,8 +128,11 @@ animation-delay: 10s;
 .centraliza_logo {
 	margin-bottom: 0em
 }
-.acesso_menuzin	{
+.acesso_menuzin, .acesso_menuzin_form, .acesso_menuzin_form_2  {
 	cursor: pointer
+}
+.form, .formulario	{
+	overflow: auto	
 }
 @media screen and (min-width: 1025px) {
 .centraliza_logo, .centraliza_logo_abertura {
@@ -150,7 +153,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-#texto{
+.texto, .form, .formulario{
 	margin-top: 13.5em
 }
 /*
@@ -185,7 +188,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-#texto{
+.texto, .form, .formulario{
 	margin-top: 13em
 }
 .logo {
@@ -218,7 +221,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-#texto{
+.texto, .form, .formulario{
 	margin-top: 8.2em
 }
 .logo {
@@ -251,7 +254,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-#texto{
+.texto, .form, .formulario{
 	margin-top: 6.5em
 }
 .logo {
@@ -287,7 +290,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-#texto{
+.texto, .form, .formulario{
 	margin-top: 6.5em
 }
 }
@@ -313,7 +316,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-#texto{
+.texto, .form, .formulario{
 	margin-top: 6em
 }
 }
@@ -349,7 +352,7 @@ animation-delay: 10s;
 	line-height: 1em;
 	text-align: right
 }
-#texto{
+.texto, .form, .formulario{
 	background-color: #004B61;
 	overflow:visible;
 	width: 80%;
@@ -363,23 +366,28 @@ animation-delay: 10s;
 	margin-right: auto;
 	color: #FFF
 }
-#box_menuzin{
+.box_menuzin{
 	display: none;
-	/*background-color: #004B61;*/
-	overflow:visible;
 	width: 80%;
-	height:100%; 
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 8em;
+	color: #FFF;
+	line-height: 3em;
+	text-align: center;
+	height: 100%;
+	position: relative
+	/*
+	background-color: #004B61;
 	opacity:0.7; 
 	filter: alpha(opacity = 70); 
 	border-radius:10px; 
 	-moz-border-radius:10px;
-	padding: 1em;
+	padding: 1em;	
+	overflow:visible;
 	padding-bottom: 0em;
-	margin-left:auto;
-	margin-right: auto;
-	margin-top: 6.5em;
-	color: #FFF;
-	line-height: 2em;
+	height:100%; 
+	*/
 }
 @media screen and (orientation:landscape) {
 .flex_item {
@@ -407,20 +415,16 @@ animation-delay: 10s;
 	display: inline
 }
 }
-.acesso_menuzin{
+.acesso_menuzin, .acesso_menuzin_form, .acesso_menuzin_form_2  {
 	background-image: url(../images/outros/acesso_menuzin.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	/*margin-left: 1em;
-	margin-bottom: 1.5em;
-	width: 21px;
-	overflow: visible;*/
 	display: none;
 	float: left;
     width:33%;
 }
 @media screen and (max-width: 380px) {
-#texto{
+.texto, .form, .formulario{
 	margin-top: 6em
 }
 }
@@ -432,7 +436,7 @@ animation-delay: 10s;
 }
 }
 @media screen and (orientation:portrait) and (max-width: 380px) {
-.acesso_menuzin{
+.acesso_menuzin, .acesso_menuzin_form, .acesso_menuzin_form_2  {
 	background-image: url(../images/outros/acesso_menuzin_pp.png);
 	background-repeat: no-repeat;
 	/*margin-left: 1em;
