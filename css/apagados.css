@@ -1,6 +1,6 @@
 ﻿@charset "utf-8";
 /* CSS Document */
-.container_english, .container_portugues, .form{
+.container_english, .container_portugues, .form, .formulario{
 	position: relative;
 	display: none;
 	height: auto

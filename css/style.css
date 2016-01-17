@@ -131,7 +131,7 @@ animation-delay: 10s;
 .acesso_menuzin, .acesso_menuzin_form, .acesso_menuzin_form_2  {
 	cursor: pointer
 }
-.form	{
+.form, .formulario	{
 	overflow: auto	
 }
 @media screen and (min-width: 1025px) {
@@ -153,7 +153,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-.texto, .form{
+.texto, .form, .formulario{
 	margin-top: 13.5em
 }
 /*
@@ -188,7 +188,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-.texto, .form{
+.texto, .form, .formulario{
 	margin-top: 13em
 }
 .logo {
@@ -221,7 +221,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-.texto, .form{
+.texto, .form, .formulario{
 	margin-top: 8.2em
 }
 .logo {
@@ -254,7 +254,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-.texto, .form{
+.texto, .form, .formulario{
 	margin-top: 6.5em
 }
 .logo {
@@ -290,7 +290,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-.texto, .form{
+.texto, .form, .formulario{
 	margin-top: 6.5em
 }
 }
@@ -316,7 +316,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-.texto, .form{
+.texto, .form, .formulario{
 	margin-top: 6em
 }
 }
@@ -352,7 +352,7 @@ animation-delay: 10s;
 	line-height: 1em;
 	text-align: right
 }
-.texto, .form{
+.texto, .form, .formulario{
 	background-color: #004B61;
 	overflow:visible;
 	width: 80%;
@@ -424,7 +424,7 @@ animation-delay: 10s;
     width:33%;
 }
 @media screen and (max-width: 380px) {
-.texto, .form{
+.texto, .form, .formulario{
 	margin-top: 6em
 }
 }

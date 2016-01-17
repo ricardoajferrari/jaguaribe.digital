@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /* CSS reset */
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,fieldset,input,textarea,p,blockquote,th,td { 
 	margin:0;
 	padding:0;
 }
@@ -48,7 +48,7 @@ body{
 	overflow-x: hidden;
 }
 .container_portugues{
-	display: block
+	display: block;
 }
 .slideShow { 
 	/* fixed position a zero-height full width container_portugues */
@@ -207,8 +207,13 @@ animation-delay: 4s;
 	}
 }
 @media screen and (max-width: 600px) {
-.acesso_menuzin, .acesso_menuzin_form, .acesso_menuzin_form_2  {
+.acesso_menuzin  {
 	display: inline-block;
+    position: absolute;
+    height:100%;
+	margin-left: -1em
+}
+.acesso_menuzin_form, .acesso_menuzin_form_2  {
     position: absolute;
     height:100%;
 	margin-left: -1em
@@ -282,7 +287,7 @@ animation-delay: 4s;
 	display: none !important
 }
 .texto	{
-	display: block !important
+	display: block
 }
 }
 @media screen and (orientation:landscape) and (max-width: 600px) {

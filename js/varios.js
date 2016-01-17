@@ -8,7 +8,6 @@ $(document).ready(function() {
 		$('head').append('<link rel="stylesheet" href="css/english.css" type="text/css" />');
 		$.getScript( "js/bg_fundo_top_english.js");
 	});
-
 	$("#botao_portugues").click(function() {
 	    $("#logo_menu_idiomas").hide();
 	    $('head').append('<link rel="stylesheet" href="css/blur.css" type="text/css" />');
@@ -25,23 +24,17 @@ $(document).ready(function() {
 	$(".acesso_menuzin_form").click(function() {
 		$(".box_menuzin").css("display", "block");	
 		$(".form").css("display", "none");
+		$(".formulario").css("display", "none");
 		$(".acesso_menuzin").css("display", "inline-block");	
 		$(".acesso_menuzin_form").css("display", "none");	
 	});
 	$(".acesso_menuzin_form_2").click(function() {
 		$(".box_menuzin").css("display", "block");	
 		$(".form").css("display", "none");
+		$(".formulario").css("display", "none");
 		$(".acesso_menuzin").css("display", "inline-block");	
 		$(".acesso_menuzin_form_2").css("display", "none");	
 	});
-	/*
-	$(".fire_form_pq").click(function(){
-		$(".box_menuzin").toggle(1, function(){
-		});
-		$(".form").toggle(1, function(){
-		});
-	});
-	*/
 
 	$('.resume').click(function(){
 		var popup = window.open('others/ricardo.ferrari_resume.pdf', '_blank');
@@ -73,6 +66,12 @@ $(window).load(function() {
 		$(".form").css("display", "block");	
 		$(".box_menuzin").css("display", "none");	
 	});
+	$(".dispara_formulario_pq").click(function() {
+		$(".acesso_menuzin").css("display", "none");	
+		$(".acesso_menuzin_form").css("display", "inline-block");	
+		$(".formulario").css("display", "block");	
+		$(".box_menuzin").css("display", "none");	
+	});
     $(".fire_form").click(function(){
 		$(".acesso_menuzin").css("display", "none");	
 		$(".acesso_menuzin_form_2").css("display", "inline-block");	
@@ -81,10 +80,18 @@ $(window).load(function() {
 		$(".texto").css("display", "none");
 		$(".texto_2").css("display", "none");		
     });		
+    $(".dispara_formulario").click(function(){
+		$(".acesso_menuzin").css("display", "none");	
+		$(".acesso_menuzin_form_2").css("display", "inline-block");	
+		$(".formulario").css("display", "block");	
+		$(".box_menuzin").css("display", "none");		
+		$(".texto").css("display", "none");
+		$(".texto_2").css("display", "none");		
+    });
 });
 
-$( window ).resize(function() {
-	if	(($('.form').css('display') == 'block') || ($('.box_menuzin').css('display') == 'block') &&	($(window).width() <= 600))	{
+$(window).resize(function() {
+	if	(($('.form').css('display') == 'block') || ($('.formulario').css('display') == 'block') || ($('.box_menuzin').css('display') == 'block') &&	($(window).width() <= 600))	{
 			$('.texto').css('display', 'none');
 	}
 	else	{
