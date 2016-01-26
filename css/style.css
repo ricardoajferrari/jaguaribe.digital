@@ -5,6 +5,10 @@ body{
 	background-color: #000;
 	font-family: Arial, Helvetica, sans-serif
 }
+a	{
+	text-decoration:none;
+	color: white
+}
 ul {
 	padding:0;
 	margin:0;
@@ -131,7 +135,7 @@ animation-delay: 10s;
 .acesso_menuzin, .acesso_menuzin_form, .acesso_menuzin_form_2  {
 	cursor: pointer
 }
-.form, .formulario	{
+.form, .formulario, .description_services, .descricao_servico	{
 	overflow: auto	
 }
 @media screen and (min-width: 1025px) {
@@ -153,7 +157,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-.texto, .form, .formulario{
+.texto, .form, .formulario, .description_services, .descricao_servicos{
 	margin-top: 13.5em
 }
 /*
@@ -188,7 +192,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-.texto, .form, .formulario{
+.texto, .form, .formulario, .description_services, .descricao_servicos{
 	margin-top: 13em
 }
 .logo {
@@ -221,8 +225,8 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-.texto, .form, .formulario{
-	margin-top: 8.2em
+.texto, .form, .formulario, .description_services, .descricao_servicos{
+	margin-top: 8.8em
 }
 .logo {
 	font-size: 3em;
@@ -233,8 +237,8 @@ animation-delay: 10s;
 #logo_direita {
 	font-size: 1.95em;
 }
-
 }
+
 @media screen and (max-width: 600px) {
 .centraliza_logo {
 	background-image: url(../images/logos/internacional_p.png);
@@ -254,7 +258,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-.texto, .form, .formulario{
+.texto, .form, .formulario, .description_services, .descricao_servicos{
 	margin-top: 6.5em
 }
 .logo {
@@ -290,7 +294,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-.texto, .form, .formulario{
+.texto, .form, .formulario, .description_services, .descricao_servicos{
 	margin-top: 6.5em
 }
 }
@@ -316,7 +320,7 @@ animation-delay: 10s;
 	background-position: center;
 	height: 32px
 }
-.texto, .form, .formulario{
+.texto, .form, .formulario, .description_services, .descricao_servicos{
 	margin-top: 6em
 }
 }
@@ -352,7 +356,7 @@ animation-delay: 10s;
 	line-height: 1em;
 	text-align: right
 }
-.texto, .form, .formulario{
+.texto, .form, .formulario, .description_services, .descricao_servicos{
 	background-color: #004B61;
 	overflow:visible;
 	width: 80%;
@@ -424,7 +428,7 @@ animation-delay: 10s;
     width:33%;
 }
 @media screen and (max-width: 380px) {
-.texto, .form, .formulario{
+.texto, .form, .formulario, .description_services, .descricao_servicos{
 	margin-top: 6em
 }
 }

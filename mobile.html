@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/form.css" />
 	<script src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/varios.js"></script>
-    
+	<script type="text/javascript" src="js/form.js"></script>    
 </head>
 <body id="page">
 
@@ -30,7 +30,7 @@
         <div class="slogan_logo_english">
             <div class="menu_english">
                 <div class="menu_english_flex">
-                    <div class="botoes_menu services">
+                    <div class="botoes_menu services fire_services">
                     </div>
                     <div class="botoes_menu resume">
                     </div>
@@ -55,7 +55,7 @@
         <div class="slogan_logo_portugues">
             <div class="menu_portugues">
                 <div class="menu_portugues_flex">
-                    <div class="botoes_menu servicos">
+                    <div class="botoes_menu servicos dispara_servicos">
                     </div>
                     <div class="botoes_menu curriculo">
                     </div>
@@ -94,7 +94,7 @@
 		<div class="box_menuzin">
             <table class="table_menuzin_portrait" width="100%" height="100%">
               <tr>
-                <td><img class="botoes_menu" src="images/outros/menu/services.png" width="117" height="37"></td>
+                <td><img class="botoes_menu fire_services_pq" src="images/outros/menu/services.png" width="117" height="37"></td>
               </tr>
               <tr>
                 <td><a href="others/ricardo.ferrari_resume.pdf" target="_blank"><img src="images/outros/menu/resume.png" width="117" height="37"></a></td>
@@ -104,7 +104,7 @@
               </tr>
             </table>
             <table class="table_menuzin_landscape" width="100%">
-              <tr><img class="table_menuzin_landscape botoes_menu" src="images/outros/menu/services.png" width="117" height="37">
+              <tr><img class="table_menuzin_landscape botoes_menu fire_services_pq" src="images/outros/menu/services.png" width="117" height="37">
                 <td></td>&nbsp;&nbsp;
               </tr>
               <tr><a href="others/ricardo.ferrari_resume.pdf" target="_blank"><img class="table_menuzin_landscape" src="images/outros/menu/resume.png" width="117" height="37"></a>
@@ -116,31 +116,29 @@
             </table>
         </div>
         <div class="form">
-            <form id="form" method="post">
-                <div>
-                    <label class="desc" id="title1" for="name">Name</label>
-                    <div>
-                    	<input name="name" id="name" type="text" class="field text fn" value="" size="8" tabindex="1">  
-                    </div>
-                </div>  
-                <div>
-                    <label class="desc" id="title2" for="email">Email</label>
-                    <div>
-                        <input id="email" name="email" type="email" class="field text fn" value="" size="8" tabindex="2"> 
-                    </div>
+            <div class="form-style" id="contact_form">
+                <div id="contact_results">
                 </div>
-                <div>
-                    <label class="desc" id="title3" for="message">Message</label>
-                    <div>
-                        <textarea id="message" name="message" rows="10" size="8" cols="50" tabindex="3"></textarea>
-                    </div>
+                <div id="contact_body">
+                    <label><span>Name <span class="required">*</span></span>
+                        <input type="text" name="name" id="name" required class="input-field"/>
+                    </label>
+                    <label><span>Email <span class="required">*</span></span>
+                        <input type="email" name="email" required class="input-field"/>
+                    </label>
+                    <label for="field5"><span>Message <span class="required">*</span></span>
+                        <textarea name="message" id="message" class="textarea-field" required></textarea>
+                    </label>
+                    <label>
+                        <span>&nbsp;</span><input type="submit" id="submit_btn" value="Submit" />
+                    </label>
                 </div>
-                <div>
-                    <div>
-                        <input id="saveForm" name="saveForm" type="submit" value="Submit">
-                    </div>
-                </div>
-            </form>
+            </div>
+		</div>
+        <div class="description_services">
+		Planning, Project, Creation, Making, Production, Reformulation, Maintenance, Quality Assurance and Testing
+        <br /><br />
+        Websites, Applications and other digital medias
         </div>
         <div class="texto texto_2">
             <p>
@@ -169,7 +167,7 @@
 		<div class="box_menuzin">
             <table class="table_menuzin_portrait" width="100%" height="100%">
               <tr>
-                <td><img class="botoes_menu" src="images/outros/menu/servicos.png" width="117" height="37"></td>
+                <td><img class="botoes_menu dispara_servicos_pq" src="images/outros/menu/servicos.png" width="117" height="37"></td>
               </tr>
               <tr>
                 <td><a href="others/ricardo.ferrari_curriculo.pdf" target="_blank"><img src="images/outros/menu/curriculo.png" width="117" height="37"></a></td>
@@ -179,7 +177,7 @@
               </tr>
             </table>
             <table class="table_menuzin_landscape" width="100%">
-              <tr><img class="table_menuzin_landscape botoes_menu" src="images/outros/menu/servicos.png" width="117" height="37">
+              <tr><img class="table_menuzin_landscape botoes_menu dispara_servicos_pq" src="images/outros/menu/servicos.png" width="117" height="37">
                 <td></td>&nbsp;&nbsp;
               </tr>
               <tr><a href="others/ricardo.ferrari_curriculo.pdf" target="_blank"><img class="table_menuzin_landscape" src="images/outros/menu/curriculo.png" width="117" height="37"></a>
@@ -195,27 +193,36 @@
                 <div>
                     <label class="desc" id="title1" for="name">Nome</label>
                     <div>
-                    	<input name="name" id="name" type="text" class="field text fn" value="" size="8" tabindex="1">  
+                    	<input name="name" id="name" type="text" class="field text fn input-field" value="" size="8" tabindex="1">  
                     </div>
                 </div>  
                 <div>
                     <label class="desc" id="title2" for="email">Email</label>
                     <div>
-                        <input id="email" name="email" type="email" class="field text fn" value="" size="8" tabindex="2"> 
+                        <input id="email" name="email" type="email" class="field text fn input-field" value="" size="8" tabindex="2"> 
                     </div>
                 </div>
                 <div>
                     <label class="desc" id="title3" for="message">Mensagem</label>
                     <div>
-                        <textarea id="message" name="message" rows="10" size="8" cols="50" tabindex="3"></textarea>
+                        <textarea id="message" name="message" class="textarea-field" size="8" cols="50" tabindex="3"></textarea>
                     </div>
                 </div>
                 <div>
                     <div>
-                        <input id="saveForm" name="saveForm" type="submit" value="Enviar">
+                        <input id="submit_btn" name="saveForm" type="submit" value="Enviar">
                     </div>
                 </div>
+                <br />
+                <div>
+                Se preferir: <a href="mailto:jaguaribe@jaguaribe.digital">jaguaribe@jaguaribe.digital</a>
+                </div>
             </form>
+        </div>
+        <div class="descricao_servicos">
+		Planejamento, Projeto, Criação, Confecção, Produção, Reformulação, Manutenção, Controle de Qualidade e Testes
+        <br /><br />
+        Websites, Aplicações e outras mídias digitais
         </div>
         <div class="texto texto_2">
             <p>
