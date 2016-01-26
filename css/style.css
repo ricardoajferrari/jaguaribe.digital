@@ -439,7 +439,7 @@ animation-delay: 10s;
 	background-position: center;
 }
 }
-@media screen and (orientation:portrait) and (max-width: 380px) {
+@media screen and (max-width: 380px) {
 .acesso_menuzin, .acesso_menuzin_form, .acesso_menuzin_form_2  {
 	background-image: url(../images/outros/acesso_menuzin_pp.png);
 	background-repeat: no-repeat;

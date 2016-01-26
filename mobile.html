@@ -116,25 +116,36 @@
             </table>
         </div>
         <div class="form">
-            <div class="form-style" id="contact_form">
-                <div id="contact_results">
+            <form id="form" method="post">
+                <div>
+                    <label class="desc" id="title1" for="name">Name</label>
+                    <div>
+                    	<input name="name" id="name" type="text" class="field text fn input-field" value="" size="8" tabindex="1">  
+                    </div>
+                </div>  
+                <div>
+                    <label class="desc" id="title2" for="email">Email</label>
+                    <div>
+                        <input id="email" name="email" type="email" class="field text fn input-field" value="" size="8" tabindex="2"> 
+                    </div>
                 </div>
-                <div id="contact_body">
-                    <label><span>Name <span class="required">*</span></span>
-                        <input type="text" name="name" id="name" required class="input-field"/>
-                    </label>
-                    <label><span>Email <span class="required">*</span></span>
-                        <input type="email" name="email" required class="input-field"/>
-                    </label>
-                    <label for="field5"><span>Message <span class="required">*</span></span>
-                        <textarea name="message" id="message" class="textarea-field" required></textarea>
-                    </label>
-                    <label>
-                        <span>&nbsp;</span><input type="submit" id="submit_btn" value="Submit" />
-                    </label>
+                <div>
+                    <label class="desc" id="title3" for="message">Message</label>
+                    <div>
+                        <textarea id="message" name="message" class="textarea-field" size="8" cols="50" tabindex="3"></textarea>
+                    </div>
                 </div>
-            </div>
-		</div>
+                <div>
+                    <div>
+                        <input id="submit_btn" name="saveForm" type="submit" value="Enviar">
+                    </div>
+                </div>
+                <br />
+                <div>
+                Or: <a href="mailto:jaguaribe@jaguaribe.digital">jaguaribe@jaguaribe.digital</a>
+                </div>
+            </form>
+        </div>
         <div class="description_services">
 		Planning, Project, Creation, Making, Production, Reformulation, Maintenance, Quality Assurance and Testing
         <br /><br />
@@ -215,7 +226,7 @@
                 </div>
                 <br />
                 <div>
-                Se preferir: <a href="mailto:jaguaribe@jaguaribe.digital">jaguaribe@jaguaribe.digital</a>
+                Ou: <a href="mailto:jaguaribe@jaguaribe.digital">jaguaribe@jaguaribe.digital</a>
                 </div>
             </form>
         </div>
