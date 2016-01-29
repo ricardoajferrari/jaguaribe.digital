@@ -9,31 +9,31 @@
 }
 */
 
-form header {
+#contact_body header {
   margin: 0; 
 }
-form header h2 {
+#contact_body header h2 {
   margin: 0 0 5px 0;
 }
-form > div {
+#contact_body > div {
   clear: both;
   overflow: hidden;
   padding: 1px;
   margin: 0 0 10px 0;
 }
-form > div > fieldset > div > div {
+#contact_body > div > fieldset > div > div {
   margin: 0 0 5px 0;
 }
-form > div > label, legend {
+#contact_body > div > label, legend, .desc {
 	width: 25%;
   	float: left;
 }
-form > div > div,
-form > div > fieldset > div {
+#contact_body > div > div,
+#contact_body > div > fieldset > div {
   width: 75%;
   float: right;
 }
-form > div > fieldset label {
+#contact_body > div > fieldset label {
 	font-size: 90%;
 }
 fieldset {
@@ -43,8 +43,6 @@ fieldset {
 
 input[type=text],
 input[type=email],
-input[type=url],
-input[type=password],
 textarea {
 	width: 100%;
   border-top: 1px solid #ccc;
@@ -54,34 +52,29 @@ textarea {
 }
 input[type=text]:focus,
 input[type=email]:focus,
-input[type=url]:focus,
-input[type=password]:focus,
 textarea:focus {
   outline: 0;
   border-color: #4697e4;
 }
 
 @media (max-width: 600px) {
-  form > div {
+  #contact_body > div {
     margin: 0 0 15px 0; 
   }
-  form > div > label,
+  #contact_body > div > label,
   legend {
 	width: 100%;
     float: none;
     margin: 0 0 5px 0;
   }
-  form > div > div,
-  form > div > fieldset > div {
+  #contact_body > div > div,
+  #contact_body > div > fieldset > div {
     width: 100%;
     float: none;
   }
   input[type=text],
   input[type=email],
-  input[type=url],
-  input[type=password],
-  textarea,
-  select {
+  textarea {
     width: 100%; 
   }
 }
