@@ -237,7 +237,7 @@ animation-delay: 4s;
 }
 }
 
-@media screen and (orientation:portrait) and (max-width: 380px) {
+@media screen and (max-width: 380px) {
 #topoLogo_english	{
 	top: -1.5em
 } 
