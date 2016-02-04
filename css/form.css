@@ -78,3 +78,7 @@ textarea:focus {
     width: 100%; 
   }
 }
+.error {
+	font-weight: bold !important;
+	color: #F00 !important;
+}

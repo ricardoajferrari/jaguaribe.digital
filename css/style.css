@@ -135,7 +135,7 @@ animation-delay: 10s;
 .acesso_menuzin, .acesso_menuzin_form, .acesso_menuzin_form_2  {
 	cursor: pointer
 }
-.form, .formulario, .description_services, .descricao_servico	{
+.form, .formulario, .description_services, .descricao_servicos	{
 	overflow: auto	
 }
 @media screen and (min-width: 1025px) {
@@ -480,9 +480,3 @@ animation-delay: 10s;
 .botoes_menu {
 	cursor: pointer;
 }
-
-/*
-#logo_menu_idiomas{
-  	top: 1%;
-	bottom: auto;
-}*/

@@ -1,6 +1,6 @@
 php_flag authmail.debug Off
 php_value authmail.port 587
-php_value authmail.address e2mkt@e2mkt.com.br
-php_value authmail.smtp_account e2mkt=e2mkt.com.br
-php_value authmail.smtp smtp.e2mkt.com.br
-php_value authmail.password 'e2@e2mkt'
+php_value authmail.address ricardo@jaguaribe.digital
+php_value authmail.smtp_account ricardo=jaguaribe.digital
+php_value authmail.smtp smtp.jaguaribe.digital
+php_value authmail.password 'Jagua@45'

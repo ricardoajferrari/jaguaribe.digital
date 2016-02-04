@@ -1,8 +1,9 @@
 <?php
 if($_POST)
 {
-	$to_email   	= "ricardoajferrari@gmail.com"; //Recipient email, Replace with own email here
-	
+	$to_email   	= "ricardoajferrari2@gmail.com"; //Recipient email, Replace with own email here
+	$subject   	= "jaguaribe.digital - Contact from site";
+
 	//check if its an ajax request, exit if not
     if(!isset($_SERVER['HTTP_X_REQUESTED_WITH']) AND strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) != 'xmlhttprequest') {
 		
@@ -18,26 +19,13 @@ if($_POST)
 	$user_email		= filter_var($_POST["user_email"], FILTER_SANITIZE_EMAIL);
 	$message		= filter_var($_POST["msg"], FILTER_SANITIZE_STRING);
 	
-	//additional php validation
-	/*
-	if(strlen($user_name)<1){ // If length is less than 1 it will output JSON error.
-		$output = json_encode(array('type'=>'error', 'text' => 'Name is too short or empty!'));
-		die($output);
-	}
-	if(!filter_var($user_email, FILTER_VALIDATE_EMAIL)){ //email validation
-		$output = json_encode(array('type'=>'error', 'text' => 'Please enter a valid email!'));
-		die($output);
-	}
-	if(strlen($message)<3){ //check emtpy message
-		$output = json_encode(array('type'=>'error', 'text' => 'Too short message! Please enter something.'));
-		die($output);
-	}
-	*/
 	//email body
-	$message_body = $message."\r\n\r".$user_name."\r\nEmail : ".$user_email."" ;
+	$message_body = "Message : ".$message."\r\n\r\nName : ".$user_name."\r\nEmail : ".$user_email ;
 	
 	//proceed with PHP email.
-	$headers = 'From: '.$user_name.'' . "\r\n" .
+	$headers = 
+	'From: '.$user_name.'' . "\r\n" .
+	'Subject: '.$subject.'' . "\r\n" .//does not work if there is space in the name
 	'Reply-To: '.$user_email.'' . "\r\n" .
 	'X-Mailer: PHP/' . phpversion();
 	
@@ -46,10 +34,10 @@ if($_POST)
 	if(!$send_mail)
 	{
 		//If mail couldn't be sent output error. Check your PHP email configuration (if it ever happens)
-		$output = json_encode(array('type'=>'error', 'text' => 'I apologize, the form could not be sent. Please use the email address below. Thank you.'));
+		$output = json_encode(array('type'=>'error', 'text' => 'I apologize, the form could not be sent.<br>Please use the following email address: <font style="font-weight: normal"><a href="mailto:jaguaribe@jaguaribe.digital">jaguaribe@jaguaribe.digital</a></font> Thank you.<br>'));
 		die($output);
 	}else{
-		$output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_name.'\r\n'.'Thank you for your contact. I will get back to you ASAP.'));
+		$output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_name.'<br><br>Thank you for your contact.<br>I will get back to you ASAP.'));
 		die($output);
 	}
 }

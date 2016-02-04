@@ -123,19 +123,19 @@
                     <div>
                         <label class="desc" id="title1" for="name">Name</label>
                         <div>
-                            <input name="name" id="name" type="text" value="" size="8" required="true" tabindex="1">  
+                            <input name="name" id="name" type="text" value="" size="8" required_JS="true" tabindex="1">  
                         </div>
                     </div>  
                     <div>
                         <label class="desc" id="title2" for="email">Email</label>
                         <div>
-                            <input id="email" name="email" type="email" value="" size="8" required="true" tabindex="2"> 
+                            <input id="email" name="email" type="email" value="" size="8" required_JS="true" tabindex="2"> 
                         </div>
                     </div>
                     <div>
                         <label class="desc" id="title3" for="message">Message</label>
                         <div>
-                            <textarea id="message" name="message" size="8" cols="50" required="true" tabindex="3"></textarea>
+                            <textarea id="message" name="message" size="8" cols="50" required_JS="true" tabindex="3"></textarea>
                         </div>
                     </div>
                     <div>
@@ -144,12 +144,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
-                <br />
-                <div>
+                <div id="email_address">
                 Or: <a href="mailto:jaguaribe@jaguaribe.digital">jaguaribe@jaguaribe.digital</a>
                 </div>
-            <!--/form-->
+            </div>
         </div>
         <div class="description_services">
 		<strong>Consulting</strong>
@@ -163,25 +161,22 @@
         <strong>Websites, Applications and other digital medias</strong>
         </div>
         <div class="texto texto_2">
-            <p>
-            Keeping up with the ultra-dynamic technológicas libraries or windows of digital media is not easy.<br />
-    Without exaggeration, every year, new forms, new formats are accepted as veiculalização channel standards, as well as those who already have, are abandoned even though it may seem to us still useful.<br />
-    If you are already difficult to keep focused on your own design, it is almost impossible to stay up to date and efficient in the transposition of these channels and their formats.
-    </p><br /><p>  
-    I believe that much for good advisory services for these tasks are necessary.<br />
-    Advise, recommend, advise, inform, indicate direct or show which roads in this vast network of media can be taken, to strengthen the project / product, and get exposure, or desired communication.<br />
-    A new site, make the site responsive, a search optimization, one application etc. Each product has its time and its time if amenable and / or convenient.<br />
-    Not to mention maintenance of content and digital marketing that require monitoring even more constant.<br />
-    And most importantly, the search for reliability in the harmonious functioning of parts (sites, applications, etc.) and seek to ensure full availability of access to them, in 24/7 shift.
-    </p><br /><p>  
-    With expertise and experience acquired over more than 15 years, I came across repeatedly requested, with exactly these issues.
-    And it was this insistence which made me recognize the need for this advice.<br />
-    Luckily I have the good fortune to know and have on hand, outstanding professionals, from various technical and hierarchical levels, with whom tale and recommend.
-    </p><br /><p>  
-    My proposal is to consider what is possible in the scope, deadlines and budgets for each goal and objective.<br />
-    Come to a common denominator, and then blame me with the production management tasks for on-time deliveries and quality.
-        </p><br /><p>    
-		    Ricardo Jaguaribe Ferrari</p>
+        	<p>
+            Keeping up with the ultra-dynamic technologic libraries and windows of digital media is not easy.<br />Without exaggeration, every year, new forms, new formats are accepted as vehicle channel standards, as well as those which already have, are abandoned even though they still may seem useful to us.<br />If you already you can’t keep up focused on your own project, it is almost impossible to stay up to date and efficient with the transposition of these channels and their formats.
+           	</p><br />
+            <p>  
+    		I believe that much for good, consulting services for these tasks are necessary.<br />Guide, recommend, advise, inform, indicate direct or show which road in this vast network of media can be taken, to strengthen the project/product, and then get the exposure or desired communication.<br />
+A new site, make the site responsive, a search optimization, a app etc. Each product has its turn and it's time, if propitious and/or convenient.<br />Do not forget also content maintenance and digital marketing, that require a even more constant monitoring.<br />Yet, more important, the search for reliability in the harmonious functioning of parts (sites, applications etc.) and the seek of ensuressement for full availability to access these, in a 24/7 shift.
+			</p><br />
+            <p>  
+    		With expertise and experience acquired over more than 15 years, I repeatedly came across requested, with exactly these issues.<br />And it was this insistence which made me recognize the need for this consulting.<br />Luckily I have the good fortune to know and have on hand, outstanding professionals, from various technical and hierarchical levels, with whom I rely and trust.
+    		</p><br />
+            <p>  
+    		My proposal is to consider what is possible in the scope, deadlines and budgets for each goal and objective.<br />Come to a common denominator, and then take charge of the project management, for quality deliveries within its deadline.
+        	</p><br />
+            <p>    
+		    Ricardo Jaguaribe Ferrari
+            </p>
         </div>
     </div>
     
@@ -200,47 +195,50 @@
             </table>
             <table class="table_menuzin_landscape" width="100%">
               <tr><img class="table_menuzin_landscape botoes_menu dispara_servicos_pq" src="images/outros/menu/servicos.png" width="117" height="37">
-                <td></td>&nbsp;&nbsp;
+                <td></td>&nbsp;&nbsp;&nbsp;
               </tr>
               <tr><a href="others/ricardo.ferrari_curriculo.pdf" target="_blank"><img class="table_menuzin_landscape" src="images/outros/menu/curriculo.png" width="117" height="37"></a>
-                <td></td>&nbsp;&nbsp;
+                <td></td>&nbsp;&nbsp;&nbsp;
               </tr>
               <tr><img class="table_menuzin_landscape botoes_menu dispara_formulario_pq" src="images/outros/menu/contato.png" width="117" height="37">
                 <td></td>
               </tr>
             </table>
         </div>
-        <div class="formulario">
-            <form id="form" method="post">
-                <div>
-                    <label class="desc" id="title1" for="name">Nome</label>
+		<!--div class="formulario">
+            <div id="contact_form">
+                <div id="contact_results"></div>
+                <div id="contact_body">
                     <div>
-                    	<input name="name" id="name" type="text" class="field text fn input-field" value="" size="8" required tabindex="1">  
+                        <label class="desc" id="title1" for="name">Nome</label>
+                        <div>
+                            <input name="name" id="name" type="text" value="" size="8" required_JS="true"="true" tabindex="1">  
+                        </div>
+                    </div>  
+                    <div>
+                        <label class="desc" id="title2" for="email">Email</label>
+                        <div>
+                            <input id="email" name="email" type="email" value="" size="8" required_JS="true"="true" tabindex="2"> 
+                        </div>
                     </div>
-                </div>  
-                <div>
-                    <label class="desc" id="title2" for="email">Email</label>
                     <div>
-                        <input id="email" name="email" type="email" class="field text fn input-field" value="" size="8" required tabindex="2"> 
+                        <label class="desc" id="title3" for="message">Menssagem</label>
+                        <div>
+                            <textarea id="message" name="message" size="8" cols="50" required_JS="true"="true" tabindex="3"></textarea>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <label class="desc" id="title3" for="message">Mensagem</label>
                     <div>
-                        <textarea id="message" name="message" class="textarea-field" size="8" cols="50" required tabindex="3"></textarea>
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <input id="submit_btn" name="saveForm" type="submit" value="Enviar">
+                        <div>
+                            <input id="submit_btn" name="saveForm" type="submit" value="Enviar">
+                        </div>
                     </div>
                 </div>
                 <br />
                 <div>
                 Ou: <a href="mailto:jaguaribe@jaguaribe.digital">jaguaribe@jaguaribe.digital</a>
                 </div>
-            </form>
-        </div>
+            </div>
+        </div-->
         <div class="descricao_servicos">
 		<strong>Consultoria</strong>
         <br /><br />
@@ -254,23 +252,17 @@
         </div>
         <div class="texto texto_2">
             <p>
-            Manter-se em dia nas ultra-dinâmicas bibliotecas ou vitrines technológicas das mídias digitais não é fácil.<br />
-            Sem exagero, a cada ano, novas formas, novos formatos, são aceitos como padrões de canais de veiculalização, assim como os que já temos, são abandonados mesmo que ainda possam nos parecer úteis.<br />
-            Se já é difícil manter-se focado no seu próprio projeto, fica quase impossível ficar em dia e eficiente nas transposições desses canais e seu formatos.
-        </p><br /><p>
-            Acredito que muito mais para o bem (mesmo fazendo o papel de “atravessador”), serviços de consultoria para estas tarefas se fazem necessários.<br />
-            Orientar, recomendar, aconselhar, informar, indicar, direcionar ou mostrar quais caminhos nesta rede imensa de mídias se pode tomar, para fazer fortalecer o projeto/produto, e assim conseguir a exposição ou comunicação desejada.<br />
-            Um novo site, um site responsivo, otimização de busca, um aplicativo etc. Cada produto tem sua vez e sua hora, se propícios e/ou convenientes.<br />
-            Sem esquecer manutenções de webdesign e marketing digital, que demandam acompanhamento ainda mais constante.<br />
-            E mais importante ainda, a busca de perfeccionismo no funcionamento das peças (sites, aplicativos etc.), assim como procurar garantir total disponibilidade de acesso a elas, em turno 24/7.
-        </p><br /><p>
-            Com expertise e experiencia adquiridos ao longo de mais de 15 anos, me deparei insistentemente solicitado, exatamente com estas questões.<br />
-            E foi esta insistencia que me fez reconhecer o acaso de oportunismo e necessidade.<br />
-            Felizmente tenho a sorte de conhecer, e ter à mão, excelentes profissionais da área, dos mais diversos níveis técnicos e hierárquicos, com os quais conto e recomendo.<br />
+            Manter-se em dia com as ultra-dinâmicas bibliotecas e vitrines tecnológicas das mídias digitais não é fácil.<br />Sem exagero, a cada ano, novas formas, novos formatos, são aceitos como padrões de canais de veiculação, assim como os que já temos, são abandonados mesmo que ainda possam nos parecer úteis.<br />Se já é difícil manter-se focado em seu próprio projeto, fica quase impossível ficar em dia e eficiente nas transposições desses canais e seu formatos.				        	</p><br /><p>
+            Acredito que muito mais para o bem, serviços de consultoria para estas tarefas se fazem necessários.<br />Orientar, recomendar, aconselhar, informar, indicar, direcionar, ou mostrar quais caminhos nesta rede imensa de mídias pode-se tomar, para fazer fortalecer o projeto/produto, e assim conseguir a exposição ou comunicação desejada.<br />Um novo site, tornar o site responsivo,  uma otimização de busca, um aplicativo etc. Cada produto tem sua vez e sua hora, se propícios e/ou convenientes.<br />Sem esquecer manutenções de conteúdo e marketing digital, que demandam acompanhamento ainda mais constante.<br />E mais importante ainda, a busca de confiabilidade no funcionamento harmônico das peças (sites, aplicativos etc.), assim como procurar garantir total disponibilidade de acesso a elas, em turno 24/7.
+	        </p><br /><p>
+            Com expertise e experiencia adquiridos ao longo de mais de 15 anos, me deparei insistentemente solicitado, exatamente para com estas questões.<br />
+            E foi esta insistência que me fez reconhecer a necessidade desta consultoria.<br />Sorte em conhecer, e ter à mão, excelentes profissionais da área, dos mais diversos níveis técnicos e hierárquicos, com os quais conto e confio nos seus profissionalismos.
+            </p><br /><p>
             Minha proposta é considerar o que é possível nos escopos, prazos e orçamentos, para cada objetivo e intuito.<br />
-            Chegar a um denominador comum, para então me responsabilizar com o gerenciamento da produção das tarefas, para entregas no prazo e com qualidade.
-        </p><br /><p>    
-		    Ricardo Jaguaribe Ferrari</p>
+            Chegar a um denominador comum, para então me responsabilizar com o gerenciamento do projeto, para entregas no prazo e com qualidade.
+	        </p><br /><p>    
+		    Ricardo Jaguaribe Ferrari
+            </p>
         </div>
     </div>
 </body>
