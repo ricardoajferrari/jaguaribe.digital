@@ -34,7 +34,7 @@ if($_POST)
 	if(!$send_mail)
 	{
 		//If mail couldn't be sent output error. Check your PHP email configuration (if it ever happens)
-		$output = json_encode(array('type'=>'error', 'text' => 'I apologize, the form could not be sent.<br>Please use the following email address: <font style="font-weight: normal"><a href="mailto:jaguaribe@jaguaribe.digital">jaguaribe@jaguaribe.digital</a></font> Thank you.<br>'));
+		$output = json_encode(array('type'=>'error', 'text' => 'I apologize, the form could not be sent.<br>Please use the following email address:&nbsp;<font style="font-weight: normal"><a href="mailto:jaguaribe@jaguaribe.digital">jaguaribe@jaguaribe.digital</a></font>&nbsp;Thank you.<br>'));
 		die($output);
 	}else{
 		$output = json_encode(array('type'=>'message', 'text' => 'Hi '.$user_name.'<br><br>Thank you for your contact.<br>I will get back to you ASAP.'));
