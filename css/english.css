@@ -18,9 +18,7 @@ fieldset,img {
 	border:0;
 }
 input{
-	border:1px solid #b0b0b0;
-	padding:3px 5px 4px;
-	color:#000;
+	padding:0px 0px 4px;
 }
 address,caption,cite,code,dfn,th,var {
 	font-style:normal;

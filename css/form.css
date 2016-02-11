@@ -8,34 +8,36 @@
   box-sizing: border-box;
 }
 */
-
-#contact_body header {
+.desc::first-letter	{
+	font-size:x-large
+	}
+#contact_body header, #contact_body_pt header {
   margin: 0; 
 }
-#contact_body header h2 {
+#contact_body header h2, #contact_body_pt header h2 {
   margin: 0 0 5px 0;
 }
-#contact_body > div {
+#contact_body > div, #contact_body_pt > div {
   clear: both;
   overflow: hidden;
   padding: 1px;
   margin: 0 0 10px 0;
 }
-#contact_body > div > fieldset > div > div {
+#contact_body > div > fieldset > div > div, #contact_body_pt > div > fieldset > div > div {
   margin: 0 0 5px 0;
 }
-#contact_body > div > label, legend, .desc {
+#contact_body > div > label, #contact_body_pt > div > label, legend, .desc {
 	width: 25%;
   	float: left;
 }
-#contact_body > div > div,
-#contact_body > div > fieldset > div {
+#contact_body > div > div, #contact_body > div > fieldset > div,
+#contact_body_pt > div > div, #contact_body_pt > div > fieldset > div {
   width: 75%;
   float: right;
 }
-#contact_body > div > fieldset label {
+/*#contact_body > div > fieldset label, #contact_body_pt > div > fieldset label {
 	font-size: 90%;
-}
+}*/
 fieldset {
 	border: 0;
   padding: 0;
@@ -58,17 +60,17 @@ textarea:focus {
 }
 
 @media (max-width: 600px) {
-  #contact_body > div {
+  #contact_body > div, #contact_body_pt > div {
     margin: 0 0 15px 0; 
   }
-  #contact_body > div > label,
+  #contact_body > div > label, #contact_body_pt > div > label,
   legend {
 	width: 100%;
     float: none;
     margin: 0 0 5px 0;
   }
-  #contact_body > div > div,
-  #contact_body > div > fieldset > div {
+  #contact_body > div > div, #contact_body_pt > div > div,
+  #contact_body > div > fieldset > div, #contact_body_pt > div > fieldset > div {
     width: 100%;
     float: none;
   }
