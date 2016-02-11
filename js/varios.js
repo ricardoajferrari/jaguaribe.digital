@@ -45,7 +45,7 @@ $(document).ready(function() {
 		var dom = popup.document.body;
 	});
 	$('.curriculo').click(function(){
-		var popup = window.open('others/ricardo.ferrari_curriculo.pdf', '_blank');
+		var popup = window.open('http://www.linkedin.com/in/jaguaribe', '_blank');
 		var dom = popup.document.body;
 	});
 	
