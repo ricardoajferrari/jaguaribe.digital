@@ -197,10 +197,23 @@ animation-delay: 4s;
 	.centraliza_logo, .centraliza_logo_abertura {
 		margin-bottom: 0em
 	}
+	.centraliza_logo	{
+		background-image: url(../images/logos/logo_g_english.png);
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 105px;
+		margin-top: 0.6em
+	}
+	.slogan_logo_english div {
+		margin-top: 0.5em;
+	}
 }
 @media screen and (max-width: 1024px) {
 	.centraliza_logo, .centraliza_logo_abertura {
 		margin-bottom: 0em
+	}
+	.slogan_logo_english div {
+		margin-top: 1.1em;
 	}
 }
 @media screen and (max-width: 600px) {
