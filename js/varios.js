@@ -48,7 +48,17 @@ $(document).ready(function() {
 		var popup = window.open('http://www.linkedin.com/in/jaguaribe', '_blank');
 		var dom = popup.document.body;
 	});
-	
+/*	
+	$(".centraliza_logo").click(function(){	
+			if	(($('.description_services').css('display') == 'block') || ($('.descricao_servicos').css('display') == 'block') || ($('.form').css('display') == 'block') || ($('.formulario').css('display') == 'block') && ($(window).width() >= 601))	{
+				$(".texto").css("display", "block");
+				$(".description_services").css("display", "none");
+				$(".descricao_servicos").css("display", "none");
+				$(".form").css("display", "none");
+				$(".formulario").css("display", "none");
+			}
+	});
+*/	
 });
 
 $(window).load(function() {
@@ -130,6 +140,9 @@ $(window).load(function() {
 		$(".texto_2").css("display", "none");		
 		$(".descricao_servicos").css("display", "block");		
     });
+	
+
+	
 });
 
 $(window).resize(function() {
@@ -140,17 +153,3 @@ $(window).resize(function() {
 			$(".texto").css("display", "block");				
 	}
 });
-
-/*
-if ($('.form').css('display') !== 'none')	{
-		    alert("The paragraph was clicked.");
-}
-*/	
-	
-		/*
-		else	{
-			$(".container_english").css("top", "0em");
-		}
-
-/*
-		*/
